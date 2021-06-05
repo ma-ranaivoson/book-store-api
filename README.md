@@ -6,24 +6,20 @@
 <ul>
     <li>mongodb community version</li>
     <li>node.js installed in your computer</li>
+    <li>npm for package manager</li>
     <li>Postman or other software to test the API</li>
 </ul>
 
 # How to setup?
-<ol>
-    <li>Clone the repository.</li>
+<ul>
+    <li><pre>git clone git@github.com:ma-ranaivoson/book-store-api.git</pre></li>
     <li><pre>cd book-store-api</pre></li>
-    <li>
-    Configuration of the environment variables
-    <ul> 
-        <li>    
-            Create a file named <b>config.env</b> inside <i>config/</i>
-        </li>
-    </ul>
+    <li><pre>touch config/config.env</pre></li>
+    <li>Configure your environment variable inside <strong>config/config.env</strong> (you can take below as example)
     </li>
-    <li>Then <pre>npm run dev</pre>
-    </li>
-</ol>
+    <li><pre>npm run dev</pre></li>
+    <li>Test the api</li>
+</ul>
 
 # All environment variables
 <ul>
